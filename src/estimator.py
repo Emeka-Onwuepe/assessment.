@@ -1,12 +1,3 @@
-
-# def estimator(data):
-#  output= { "data": {}, "impact": {}, "severeImpact": {} }
- 
-#  return print(output)
-
-
-# estimator(input)
-
 def covid19ImpactEstimator(input):
       output= { "data": input, "impact": {}, "severeImpact": {} }
       
@@ -19,8 +10,6 @@ def covid19ImpactEstimator(input):
       timePeriod= input["timeToElapse"]
       
       if input["periodType"]=="days":
-        # output["impact"]["infectionsByRequestedTime"]
-        # output["severeImpact"]["infectionsByRequestedTime"]
         for index in range(1,timePeriod+1):
             if index % 3 == 0:
                   temp= impact * 2
