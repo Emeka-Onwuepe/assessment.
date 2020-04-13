@@ -1,5 +1,5 @@
 def estimator(data):
-  return data
+  return covid19ImpactEstimator(input)
 
 
 def covid19ImpactEstimator(input):
